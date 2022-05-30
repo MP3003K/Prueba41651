@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EVI3.Business/1.0.0": {
+        "dependencies": {
+          "EVI3.Data": "1.0.0",
+          "EVI3.Entities": "1.0.0"
+        },
+        "runtime": {
+          "EVI3.Business.dll": {}
+        }
+      },
+      "EVI3.Data/1.0.0": {
+        "dependencies": {
+          "EVI3.Entities": "1.0.0"
+        },
+        "runtime": {
+          "EVI3.Data.dll": {}
+        }
+      },
+      "EVI3.Entities/1.0.0": {
+        "runtime": {
+          "EVI3.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EVI3.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EVI3.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EVI3.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

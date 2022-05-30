@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EVI3.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EVI3.Data": "1.0.0",
+          "EVI3.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EVI3.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EVI3.Business.dll": {}
+        }
+      },
+      "EVI3.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EVI3.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EVI3.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EVI3.Data.dll": {}
+        }
+      },
+      "EVI3.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EVI3.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EVI3.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EVI3.Business/1.0.0": {
+      "type": "project",
+      "path": "../EVI3.Business/EVI3.Business.csproj",
+      "msbuildProject": "../EVI3.Business/EVI3.Business.csproj"
+    },
+    "EVI3.Data/1.0.0": {
+      "type": "project",
+      "path": "../EVI3.Data/EVI3.Data.csproj",
+      "msbuildProject": "../EVI3.Data/EVI3.Data.csproj"
+    },
+    "EVI3.Entities/1.0.0": {
+      "type": "project",
+      "path": "../EVI3.Entities/EVI3.Entities.csproj",
+      "msbuildProject": "../EVI3.Entities/EVI3.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EVI3.Business >= 1.0.0",
+      "EVI3.Data >= 1.0.0",
+      "EVI3.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KORTH\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\KORTH\\source\\repos\\EVI3\\EVI3.csproj",
+      "projectName": "EVI3",
+      "projectPath": "C:\\Users\\KORTH\\source\\repos\\EVI3\\EVI3.csproj",
+      "packagesPath": "C:\\Users\\KORTH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KORTH\\source\\repos\\EVI3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\KORTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\KORTH\\source\\repos\\EVI3.Business\\EVI3.Business.csproj": {
+              "projectPath": "C:\\Users\\KORTH\\source\\repos\\EVI3.Business\\EVI3.Business.csproj"
+            },
+            "C:\\Users\\KORTH\\source\\repos\\EVI3.Data\\EVI3.Data.csproj": {
+              "projectPath": "C:\\Users\\KORTH\\source\\repos\\EVI3.Data\\EVI3.Data.csproj"
+            },
+            "C:\\Users\\KORTH\\source\\repos\\EVI3.Entities\\EVI3.Entities.csproj": {
+              "projectPath": "C:\\Users\\KORTH\\source\\repos\\EVI3.Entities\\EVI3.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
